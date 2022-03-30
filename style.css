@@ -1,0 +1,99 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  font-family: verdana, arial, sans-serif;
+  margin: 2rem;
+  background-color: lavender; /*change if want*/
+  color: gray; 
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+}
+
+button {
+  padding: 9px; /* size of the start and end button*/
+  border-radius: 6px; /* making the buttons more round*/
+}
+
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+    background: #78A2CC;
+}
+
+#button2 {
+    background: #88AED0;
+}
+
+#button3 {
+    background: #96B9D0;
+}
+
+#button4 {
+    background: #A4C3D2;
+}
+
+#button5 {
+    background: #AECBD6;
+}
+
+#button6 {
+    background: #BFD4DB;
+}
+
+
+#button1:active, #button1.lit {
+    background-image: url(https://cdn.glitch.global/82886f8d-2298-48bc-abdb-a0da15f91c8a/dog1.png?v=1648422971938);
+}
+
+#button2:active, #button2.lit {
+    background-image: url(https://cdn.glitch.global/82886f8d-2298-48bc-abdb-a0da15f91c8a/dog2.jpeg?v=1648423008132);
+}
+
+#button3:active, #button3.lit  {
+     background-image: url(https://cdn.glitch.global/82886f8d-2298-48bc-abdb-a0da15f91c8a/dog3.jpeg?v=1648423013283);
+}
+
+#button4:active, #button4.lit  {
+    background-image: url(https://cdn.glitch.global/82886f8d-2298-48bc-abdb-a0da15f91c8a/dog4.jpeg?v=1648423018274);
+}
+
+#button5:active, #button5.lit {
+    background-image: url(https://cdn.glitch.global/82886f8d-2298-48bc-abdb-a0da15f91c8a/dog5.jpeg?v=1648423024618);
+}
+
+#button6:active, #button6.lit {
+    background-image: url(https://cdn.glitch.global/82886f8d-2298-48bc-abdb-a0da15f91c8a/dog6.png?v=1648423029488);
+}
+
+
+
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
