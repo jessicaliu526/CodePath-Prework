@@ -4,7 +4,7 @@
 
 Submitted by: **Jessica Liu**
 
-Time spent: **#** hours spent in total
+Time spent: **10** hours spent in total
 
 Link to project: https://noon-fuschia-second.glitch.me/
 
@@ -36,8 +36,9 @@ The following **optional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![X] https://recordit.co/51jpGAWpVZ
-![X] https://recordit.co/ciYHwoznwp 
+https://recordit.co/51jpGAWpVZ
+
+https://recordit.co/ciYHwoznwp 
 ![](gif3-link-here)
 ![](gif4-link-here)
 
@@ -63,7 +64,7 @@ If  I had more time for this project, I would have 3 different difficulty levels
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording] https://www.loom.com/share/06cd3c7bb5de425080b8d83a19b6d3dc
 
 
 ## License
